@@ -108,10 +108,99 @@ body{
 }
 
 #barJS{
-
-  height: 25px;
+  color: #000000;
+  text-align: center;
+  height: 24px;
   width: 75%;
   background-color: #ffd900;
+}
+
+#barPHP{
+  color: #ffffff;
+  text-align: center;
+  height: 24px;
+  width: 95%;
+  background-color: #67028e;
+}
+
+#barCsharp{
+  color: #000000;
+  text-align: center;
+  height: 24px;
+  width: 70%;
+  background-color: #494949;
+}
+
+#barJ{
+  color: #000000;
+  text-align: center;
+  height: 24px;
+  width: 70%;
+  background-color: #ff8000;
+}
+
+#barPY{
+  color: #000000;
+  text-align: center;
+  height: 24px;
+  width: 65%;
+  background-color: #07620e;
+}
+
+#barNode{
+  color: #ffffff;
+  text-align: center;
+  height: 24px;
+  width: 75%;
+  background-color: #2e2a2a;
+}
+
+#barRGPD{
+  color: #ffffff;
+  text-align: center;
+  height: 24px;
+  width: 90%;
+  background-color: #2d2203;
+}
+
+#barPOO{
+  color: #ffffff;
+  text-align: center;
+  height: 24px;
+  width: 95%;
+  background-color: #19b5e0;
+}
+
+#barMVC{
+  color: #000000;
+  text-align: center;
+  height: 24px;
+  width: 95%;
+  background-color: #ffffff;
+}
+
+#barAngl{
+  color: #ffffff;
+  text-align: center;
+  height: 24px;
+  width: 85%;
+  background-color: #b32e2e;
+}
+
+#barFR{
+  color: #000000;
+  text-align: center;
+  height: 24px;
+  width: 100%;
+  background-image: linear-gradient(to right,blue, white, red);
+}
+
+#barESP{
+  color: #f40202;
+  text-align: center;
+  height: 24px;
+  width: 45%;
+  background-color: #dae40e;
 }
 
 /* footer---------------------------------------------------------------------------------------------------------*/
