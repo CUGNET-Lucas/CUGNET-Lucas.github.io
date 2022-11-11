@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+*{
+  color: #249c24;
+}
+body{
+  font-family: 'Fragment Mono', monospace;
+  background: linear-gradient(to right, #343232, 10%, #0f0f0f);
+  margin: none;
+}
+
+/* page---------------------------------------------------------------------------------------------------------*/
+
+#page{
+  position: absolute;
+  margin: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* header---------------------------------------------------------------------------------------------------------*/
+#header{
+  position: fixed;
+  display: inline-block;
+  margin: none;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+#header p{
+  margin-left: auto;
+  margin-right: auto;
+}
+#header hr{
+  background-color: #201e1e;
+  height: 1px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#ph1{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: none;
+  margin: none;
+}
+#ph2{
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: none;
+  margin: none;
+}
+
+/* corpus---------------------------------------------------------------------------------------------------------*/
+
+#corpus{
+  margin-top: 140px;
+  position: relative;
+  display: flex;
+  margin: none;
+  width: 100%;
+  z-index: 1;
+}
+
+#menuSelection{
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 18%;
+}
+
+#menuSelection button{
+  background-color: #252222;
+  width: 100%;
+  height: 60px;
+  border-collapse: collapse;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#ajaxReceiver{
+  background-color: black;
+  width: 75%;
+  min-height: 400px;
+}
+
+#ajaxContent{
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 30px;
+  padding: none;
+}
+
+.progressBar{
+  height: 25px;
+  width: 70%;
+  background-color: #0a710a85;
+  border-color: #343232;
+  padding: 0px;
+  margin: 0px;
+  border: 1px;
+}
+
+#barJS{
+  margin: 0px;
+  padding: 0px;
+  height: 25px;
+  width: 75%;
+  background-color: #ffd900;
+}
+
+/* footer---------------------------------------------------------------------------------------------------------*/
+
+#footer{
+  width: 90%;
+  height: 120px;
+  margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer p{
+  margin-top: 30px;
+  text-align: center;
+  line-height: 50px;  
+}
+
+#insta{
+  color: #770491;
+  font-size: 25px;
+  margin: 10px;
+}
+#snap{
+  color: #fffb00;
+  font-size: 25px;
+  margin: 10px;
+}
+#fb{
+  color: #1704c4;
+  font-size: 25px;
+  margin: 10px;
+}
+
+/* fin de la page-----------------------------------------------------------------------------------------------------------------------------*/
