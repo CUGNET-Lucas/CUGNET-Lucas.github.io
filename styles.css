@@ -242,8 +242,8 @@ body{
 }
 
 /* fin de la page-----------------------------------------------------------------------------------------------------------------------------*/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 720px and down) */
+@media only screen and (max-width: 720px) {
 
   #corpus{
     display: block;
@@ -282,8 +282,8 @@ body{
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small devices (portrait tablets and large phones, 720px and up) */
+@media only screen and (min-width: 720) {
 
 }
 
