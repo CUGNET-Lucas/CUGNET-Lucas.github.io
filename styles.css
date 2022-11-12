@@ -63,6 +63,7 @@ body{
   display: flex;
   margin: none;
   width: 100%;
+  height: auto;
   z-index: 1;
 }
 
@@ -87,6 +88,7 @@ body{
   background-color: black;
   width: 75%;
   min-height: 400px;
+  height: min-content;
 }
 
 #ajaxContent{
@@ -240,3 +242,62 @@ body{
 }
 
 /* fin de la page-----------------------------------------------------------------------------------------------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  #corpus{
+    display: block;
+    min-height: 0;
+  }
+
+  #menuSelection{
+    width: 100%;
+  }
+  
+  #menuSelection button{
+    width: 100%;
+    height: 30px;
+    font-weight: normal;
+  }
+  
+  #ajaxReceiver{
+    border-radius: 1%;
+    background-color: black;
+    width: 98%;
+    min-height: 60px;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  #footer p{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 25px;  
+  }
+
+  #ajaxContent{
+    font-weight: normal;
+    line-height: 20px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
