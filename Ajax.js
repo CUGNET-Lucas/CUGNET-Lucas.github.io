@@ -1,1 +1,66 @@
-function _0xd69c(_0x1e7f8d,_0x489ebe){const _0x1e14cf=_0x1e14();return _0xd69c=function(_0xd69c83,_0x145b89){_0xd69c83=_0xd69c83-0x183;let _0x52fb01=_0x1e14cf[_0xd69c83];return _0x52fb01;},_0xd69c(_0x1e7f8d,_0x489ebe);}(function(_0x4337be,_0x12c267){const _0x466792=_0xd69c,_0xee5acb=_0x4337be();while(!![]){try{const _0x11e27d=-parseInt(_0x466792(0x19b))/0x1+-parseInt(_0x466792(0x18c))/0x2*(parseInt(_0x466792(0x192))/0x3)+parseInt(_0x466792(0x18f))/0x4*(parseInt(_0x466792(0x1a3))/0x5)+-parseInt(_0x466792(0x19e))/0x6*(parseInt(_0x466792(0x187))/0x7)+parseInt(_0x466792(0x1a4))/0x8+-parseInt(_0x466792(0x18d))/0x9+parseInt(_0x466792(0x190))/0xa;if(_0x11e27d===_0x12c267)break;else _0xee5acb['push'](_0xee5acb['shift']());}catch(_0x4dcbde){_0xee5acb['push'](_0xee5acb['shift']());}}}(_0x1e14,0xaa1ed));function _0x1e14(){const _0xbfccaf=['request\x20for\x20skills','7423014TaVrZH','Projets.html','ajaxReceiver','log','getElementById','140815lIHqgx','1056640VIDZEG','Profil.html','request\x20for\x20profile','height','request\x20for\x20cv','Cv.html','request\x20for\x20projects','7bcTkrw','getFullYear','auto','classList','projectButtonAlt','282FqesLS','5837193szsfTt','projectButton','76uOSZed','35559220ftZdvQ','load','17961XmMKrS','footer','#ajaxReceiver','ready','style','request\x20for\x20researches','VeilleJur.html','\x20CUGNET\x20Lucas.\x20Tous\x20droits\x20réservés.</p>','<p><a\x20href=\x22https://www.instagram.com/lucas_cugnet/\x22\x20target=\x22_blank\x22><i\x20class=\x22bi\x20bi-instagram\x22\x20id=\x22insta\x22></i></a><a\x20href=\x22https://www.facebook.com/people/Lucas-Cugnet/100008483671392/\x22\x20target=\x22_blank\x22><i\x20class=\x22bi\x20bi-facebook\x22\x20id=\x22fb\x22></i></a><a\x20href=\x22https://www.snapchat.com/add/l.cugnet?share_id=yNruLtL4VQ0&locale=fr-FR\x22\x20target=\x22_blank\x22><i\x20class=\x22bi\x20bi-snapchat\x22\x20id=\x22snap\x22></i></a></br>Copyright\x20&copy\x20','796373NXaada','request\x20for\x20technology'];_0x1e14=function(){return _0xbfccaf;};return _0x1e14();}function loadProfile(){const _0x49c959=_0xd69c;$(document)[_0x49c959(0x195)](function(){const _0x346ef6=_0x49c959;console[_0x346ef6(0x1a1)](_0x346ef6(0x1a6)),$(_0x346ef6(0x194))[_0x346ef6(0x191)](_0x346ef6(0x1a5));});}function loadCompetences(){const _0x43438f=_0xd69c;$(document)[_0x43438f(0x195)](function(){const _0x4346a8=_0x43438f;console[_0x4346a8(0x1a1)](_0x4346a8(0x19d)),$(_0x4346a8(0x194))['load']('Competences.html');});}function loadProjects(){const _0x4aeddf=_0xd69c;$(document)[_0x4aeddf(0x195)](function(){const _0x11390c=_0x4aeddf;console[_0x11390c(0x1a1)](_0x11390c(0x186)),$(_0x11390c(0x194))[_0x11390c(0x191)](_0x11390c(0x19f));});}function loadResearches(){$(document)['ready'](function(){const _0x251819=_0xd69c;console[_0x251819(0x1a1)](_0x251819(0x197)),$('#ajaxReceiver')[_0x251819(0x191)](_0x251819(0x198));});}function loadTech(){$(document)['ready'](function(){const _0x1e7053=_0xd69c;console[_0x1e7053(0x1a1)](_0x1e7053(0x19c)),$(_0x1e7053(0x194))[_0x1e7053(0x191)]('VeilleTech.html');});}function loadCv(){$(document)['ready'](function(){const _0x348d53=_0xd69c;console[_0x348d53(0x1a1)](_0x348d53(0x184)),document['getElementById'](_0x348d53(0x1a0))['$'](_0x348d53(0x194))[_0x348d53(0x191)](_0x348d53(0x185));});}function showProject(_0x311a77){const _0x44765b=_0xd69c;let _0x254c83=document['getElementsByClassName'](_0x44765b(0x18e)),_0x54b3e6=_0x311a77;console[_0x44765b(0x1a1)](_0x54b3e6);if(document['getElementById'](_0x54b3e6)[_0x44765b(0x196)][_0x44765b(0x183)]==_0x44765b(0x189)){document[_0x44765b(0x1a2)](_0x54b3e6)[_0x44765b(0x196)][_0x44765b(0x183)]=null;let _0x5220c4=_0x54b3e6-0x1;_0x254c83[_0x5220c4]['classList']['toggle'](_0x44765b(0x18b));}else{document[_0x44765b(0x1a2)](_0x54b3e6)[_0x44765b(0x196)][_0x44765b(0x183)]=_0x44765b(0x189);let _0x4e1a62=_0x54b3e6-0x1;_0x254c83[_0x4e1a62][_0x44765b(0x18a)]['toggle'](_0x44765b(0x18b));};}function copyright(){const _0x5ea846=_0xd69c;var _0x5b1a83=new Date();document['getElementById'](_0x5ea846(0x193))['innerHTML']=_0x5ea846(0x19a)+_0x5b1a83[_0x5ea846(0x188)]()+_0x5ea846(0x199);}
+function loadProfile() {
+    $(document).ready(function(){
+        //Charge les éléments p depuis la page "une/url" et les insère dans #re
+        console.log("request for profile");
+        $("#ajaxReceiver").load("Profil.html");
+    });
+}
+function loadCompetences() {
+    $(document).ready(function(){
+        //Charge les éléments p depuis la page "une/url" et les insère dans #re
+        console.log("request for skills");
+        $("#ajaxReceiver").load("Competences.html");
+    });
+}
+function loadProjects() {
+    $(document).ready(function(){
+        //Charge les éléments p depuis la page "une/url" et les insère dans #re
+        console.log("request for projects");
+        $("#ajaxReceiver").load("Projets.html");
+    });
+}
+function loadResearches() {
+    $(document).ready(function(){
+        //Charge les éléments p depuis la page "une/url" et les insère dans #re
+        console.log("request for researches");
+        $("#ajaxReceiver").load("VeilleJur.html");
+    });
+}
+function loadTech() {
+    $(document).ready(function(){
+        //Charge les éléments p depuis la page "une/url" et les insère dans #re
+        console.log("request for technology");
+        $("#ajaxReceiver").load("VeilleTech.html");
+    });
+}
+function loadCv() {
+    $(document).ready(function(){
+        //Charge les éléments p depuis la page "une/url" et les insère dans #re
+        console.log("request for cv");
+        document.getElementById("ajaxReceiver").
+        $("#ajaxReceiver").load("Cv.html");
+    });
+}
+
+//projects--------------------------------------------------------------------------------------------------
+
+function showProject(idProjet){
+    let acc = document.getElementsByClassName("projectButton");
+    let i = idProjet;
+    console.log(i);
+    if (document.getElementById(i).style.height == "auto") {
+        document.getElementById(i).style.height = null;
+        let x = i-1;
+        acc[x].classList.toggle("projectButtonAlt");
+    } else {
+        document.getElementById(i).style.height = "auto";
+        let x = i-1;
+        acc[x].classList.toggle("projectButtonAlt");
+    };
+}
+
+
+function copyright() {
+    var theDate=new Date();
+    document.getElementById("footer").innerHTML = '<p><a href="https://www.instagram.com/lucas_cugnet/" target="_blank"><i class="bi bi-instagram" id="insta"></i></a><a href="https://www.facebook.com/people/Lucas-Cugnet/100008483671392/" target="_blank"><i class="bi bi-facebook" id="fb"></i></a><a href="https://www.snapchat.com/add/l.cugnet?share_id=yNruLtL4VQ0&locale=fr-FR" target="_blank"><i class="bi bi-snapchat" id="snap"></i></a></br>Copyright &copy '+theDate.getFullYear()+' CUGNET Lucas. Tous droits réservés.</p>';
+}
