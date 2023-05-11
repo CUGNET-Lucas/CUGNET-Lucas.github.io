@@ -313,6 +313,18 @@ button.closeModal{
     line-height: 30px;
   }
 
+  .listProject{
+    display: flex;
+    margin-top: 40px;
+    height: 70%;
+    max-width: 100%;
+    flex-flow: row wrap;
+  }
+  
+  .project{
+    width: 40%;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 720px and up) */
