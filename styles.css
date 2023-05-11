@@ -113,116 +113,75 @@ video::-webkit-media-controls {
   padding: none;
 }
 
-.progressBar{
-  height: 25px;
-  width: 70%;
-  background-color: #0a710a85;
-  border-color: #343232;
-  padding: 0px;
-  margin: 0px;
-  border: 1px;
+.listProject{
+  display: flex;
+  margin-top: 40px;
 }
 
-#barJS{
-  color: #000000;
-  text-align: center;
-  height: 24px;
-  width: 75%;
-  background-color: #ffd900;
+.listComp{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#barPHP{
-  color: #ffffff;
+.competence{
+  height: 38px;
+  vertical-align: middle;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(100, 100, 100, 0.705);
+  border: 2px groove rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.competence div{
+ width: fit-content;
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-right: 10px;
+ margin-left: 10px;
+}
+
+.compLogo{
+  max-width: auto;
+  max-height: 32px;
+}
+
+.project{
+  height: fit-content;
+  /* vertical-align: middle; */
+  width: 18%;
   text-align: center;
-  height: 24px;
+  display: block;
+  justify-content: space-between;
+  background-color: rgba(100, 100, 100, 0.705);
+  border: 2px groove rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.project div{
   width: 95%;
-  background-color: #67028e;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#barCsharp{
-  color: #000000;
-  text-align: center;
-  height: 24px;
-  width: 70%;
-  background-color: #494949;
-}
-
-#barJ{
-  color: #000000;
-  text-align: center;
-  height: 24px;
-  width: 70%;
-  background-color: #ff8000;
-}
-
-#barPY{
-  color: #000000;
-  text-align: center;
-  height: 24px;
-  width: 65%;
-  background-color: #07620e;
-}
-
-#barNode{
-  color: #ffffff;
-  text-align: center;
-  height: 24px;
-  width: 75%;
-  background-color: #2e2a2a;
-}
-
-#barRGPD{
-  color: #ffffff;
-  text-align: center;
-  height: 24px;
-  width: 90%;
-  background-color: #2d2203;
-}
-
-#barPOO{
-  color: #ffffff;
-  text-align: center;
-  height: 24px;
-  width: 95%;
-  background-color: #19b5e0;
-}
-
-#barMVC{
-  color: #000000;
-  text-align: center;
-  height: 24px;
-  width: 95%;
-  background-color: #ffffff;
-}
-
-#barAngl{
-  color: #ffffff;
-  text-align: center;
-  height: 24px;
-  width: 85%;
-  background-color: #b32e2e;
-}
-
-#barFR{
-  color: #000000;
-  text-align: center;
-  height: 24px;
-  width: 100%;
-  background-image: linear-gradient(to right,blue, white, red);
-}
-
-#barESP{
-  color: #f40202;
-  text-align: center;
-  height: 24px;
-  width: 45%;
-  background-color: #dae40e;
+.imgProject{
+  width:90%;
+  max-height:100%;
+  border-radius: 10%;
 }
 
 .projectButtonAlt{
   display: inline-flex;
   background-color: #6e6a6a;
-  border-color: #07620e;
+  border-color: #119cc2e2;
   border: solid;
   justify-content: space-between;
   width: 70%;
@@ -235,7 +194,7 @@ video::-webkit-media-controls {
   display: inline-flex;
   background-color: #4d4b4b;
   font-size: normal;
-  border-color: #07620e;
+  border-color: #a8a2a2e2;
   justify-content: space-between;
   width: 70%;
   margin-left: auto;
@@ -262,7 +221,7 @@ video::-webkit-media-controls {
 
 .more{
   height: 0px;
-  width: 68%;
+  width: 70%;
   margin-bottom: 1px;
   background-color: #363535;
   overflow: hidden;
