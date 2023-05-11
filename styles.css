@@ -111,13 +111,7 @@ video::-webkit-media-controls {
   font-weight: bold;
   line-height: 30px;
   padding: none;
-}
-
-.listProject{
-  display: flex;
-  margin-top: 40px;
-  max-width: 100%;
-  flex-flow: row wrap;
+  height: 100%;
 }
 
 .listComp{
@@ -138,6 +132,7 @@ video::-webkit-media-controls {
   background-color: rgba(100, 100, 100, 0.705);
   border: 2px groove rgb(0, 0, 0);
   border-radius: 5px;
+  overflow: scroll;
 }
 
 .competence div{
@@ -153,26 +148,44 @@ video::-webkit-media-controls {
   max-height: 32px;
 }
 
+.listProject{
+  display: flex;
+  margin-top: 40px;
+  height: 40%;
+  max-width: 100%;
+  flex-flow: row wrap;
+}
+
 .project{
-  height: fit-content;
+  height: auto;
   /* vertical-align: middle; */
   width: 18%;
   text-align: center;
-  display: block;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
   background-color: rgba(100, 100, 100, 0.705);
   border: 2px groove rgb(0, 0, 0);
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+
+.projectImg{
+  width: 95%;
+  height: auto;
+  max-height: 75%;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
 
-.project div{
+.projectName{
   width: 95%;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  height: 20%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -183,53 +196,39 @@ video::-webkit-media-controls {
   border-radius: 10%;
 }
 
-.projectButtonAlt{
-  display: inline-flex;
-  background-color: #6e6a6a;
+/* Modale project------------------------------------------------------------------------------------------------ */
+
+dialog.projectDial{
+  text-align: center;
+  max-width: 60%;
+  max-height: 90%;
+  border-radius: 10px;
+  background-color: rgba(46, 44, 44, 0.865);
   border-color: #119cc2e2;
-  border: solid;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); 
 }
 
-.projectButton {
-  display: inline-flex;
-  background-color: #4d4b4b;
-  font-size: normal;
-  border-color: #a8a2a2e2;
-  justify-content: space-between;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
+dialog.projectDial::backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.projectButtonAlt, .projectButton:hover{
-  background-color: #3d3a3a;
-  transition: 0.2s;
+dialog.projectDial p{
+  text-align: left;
 }
 
-.projectButton:after {
-  content: '\002B';
-  font-weight: bold;
+button.closeModal{
   float: right;
+  margin-top: 3px;
+  color:red;
+  background: none;
+  border: none;
 }
 
-.projectButtonAlt:after {
-  content: "\2212";
-  font-weight: bold;
-  float: right;
-}
-
-.more{
-  height: 0px;
-  width: 70%;
-  margin-bottom: 1px;
-  background-color: #363535;
+.imageModal{
+  max-width: 90%;
   overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* footer---------------------------------------------------------------------------------------------------------*/

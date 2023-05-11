@@ -1,29 +1,40 @@
 <div id="ajaxContent">
     Retrouvez ici mes projets effectués en cour de scolarité:<br>
     <div class="listProject">
-        <div class="project">
-            <div><img class="imgProject" src="Aswado.JPG" alt="logo assossiation Aswado"></div>
-            <div>Projet Aswado</div>
+        <div class="project" onclick='modalProject("Aswado", "open")'>
+            <div class="projectImg"><img class="imgProject" src="Aswado.JPG" alt="logo assossiation Aswado"></div>
+            <div class="projectName">Aswado</div>
         </div>
         <div class="project">
-            <div><img class="imgProject" src="TTPM.png" alt="logo TTPM"></div>
-            <div>projet TTPM</div>
+            <div class="projectImg"><img class="imgProject" src="TTPM.png" alt="logo TTPM"></div>
+            <div class="projectName">TTPM</div>
         </div>
         <div class="project">
-            <div><img class="imgProject" src="gsb.png" alt="logo GSB"></div>
-            <div>projet GSB</div>
+            <div class="projectImg"><img class="imgProject" src="gsb.png" alt="logo GSB"></div>
+            <div class="projectName">GSB</div>
         </div>
         <div class="project">
-            <div><img class="imgProject" src="gestCulture.png" alt="logo GestCulture"></div>
-            <div>projet GestCulture</div>
+            <div class="projectImg"><img class="imgProject" src="gestCulture.png" alt="logo GestCulture"></div>
+            <div class="projectName">GestCulture</div>
         </div>
     </div>
-    <!-- <button type="button" onclick="showProject('1')" class="projectButton">projet 1<p></p></button>
-    <div class="more" id="1" style="height: 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    <button type="button" onclick="showProject('2')" class="projectButton">projet 2<p></p></button>
-    <div class="more" id="2" style="height: 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    <button type="button" onclick="showProject('3')" class="projectButton">projet 3<p></p></button>
-    <div class="more" id="3" style="height: 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    <button type="button" onclick="showProject('4')" class="projectButton">projet 4<p></p></button>
-    <div class="more" id="4" style="height: 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div> -->
+    <dialog id='Aswado' class="projectDial">
+        <button class="closeModal" onclick='modalProject("Aswado")'>X</button>
+        <div>
+            Projet Aswado<br><br>
+            <p>
+                Contexte:<br><br>
+                L’association Aswado a pour but la protection, la rééducation et la reconversion d’équidés. 
+                Elle souhaite gagner en visibilité et pouvoir gérer les comptes d'abonnés numériquement.<br><br>
+                Dans le cadre d'un stage de six semaines, il était demandé la réalisation d'un site comprenant:<br><br>
+                -une partie accueil présentant le site<br>
+                -une partie actualités<br>
+                -une partie répertoriant les équidés de l'assossiation<br>
+                -une partie pour la gestion des abonnés<br>
+                -une partie pour afficher les tarifs de l'assossiation<br>
+                -une interface de connexion<br>
+            </p>
+            <div class="imageModal"><img class="imageModal" src="aswadoImg1.png" alt="accueil Aswado"></div>
+        </div>
+    </dialog>
 </div>

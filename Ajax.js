@@ -44,19 +44,14 @@ function loadCv() {
 
 //projects--------------------------------------------------------------------------------------------------
 
-function showProject(idProjet){
-    let acc = document.getElementsByClassName("projectButton");
-    let i = idProjet;
-    console.log(i);
-    if (document.getElementById(i).style.height == "auto") {
-        document.getElementById(i).style.height = null;
-        let x = i-1;
-        acc[x].classList.toggle("projectButtonAlt");
-    } else {
-        document.getElementById(i).style.height = "auto";
-        let x = i-1;
-        acc[x].classList.toggle("projectButtonAlt");
-    };
+function modalProject(project,command){
+    if(command == "open"){ 
+        document.getElementById(project).showModal();
+        console.log('ouverture modale');
+    }else{
+        document.getElementById(project).close();
+        console.log('fermeture modale');
+    }
 }
 
 
