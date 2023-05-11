@@ -116,18 +116,23 @@ video::-webkit-media-controls {
 .listProject{
   display: flex;
   margin-top: 40px;
+  max-width: 100%;
+  flex-flow: row wrap;
 }
 
 .listComp{
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  max-width: 100%;
+  flex-flow: row wrap;
 }
 
 .competence{
   height: 38px;
   vertical-align: middle;
-  width: fit-content;
+  min-width: fit-content;
+  max-width: fit-content;
   display: flex;
   justify-content: space-between;
   background-color: rgba(100, 100, 100, 0.705);
