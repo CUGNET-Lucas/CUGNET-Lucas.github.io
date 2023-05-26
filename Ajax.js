@@ -37,7 +37,7 @@ function loadCv() {
     $(document).ready(function(){
         //Charge les éléments p depuis la page "une/url" et les insère dans #re
         console.log("request for cv");
-        document.getElementById("ajaxReceiver").
+        document.getElementById("ajaxReceiver");
         $("#ajaxReceiver").load("Cv.html");
     });
 }
@@ -54,6 +54,7 @@ function modalProject(project,command){
     }
 }
 
+//footer----------------------------------------------------------------------------------------------------
 
 function copyright() {
     var theDate=new Date();
