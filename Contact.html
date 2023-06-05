@@ -1,0 +1,27 @@
+<div id="ajaxContent" class="centered">
+
+    <h2>
+    Remplissez le formulaire ci dessous si vous souhaitez me contacter.
+    </h2>
+
+    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+    <input type="hidden" name="access_key" value="6a690b73-8310-40c4-970d-b4b3088075b1" />
+    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+    <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+    <label for="name">Nom</label><br/>
+    <input type="text" name="name" id="name" placeholder="Nom prénom" required/><br/>
+    
+    <label for="email">Email</label><br/>
+    <input type="email" name="email" id="email" placeholder="email" required/><br/>
+
+    <label for="phone">Numéro de téléphone*</label><br/>
+    <input type="text" name="phone" id="phone"/><br/>
+    
+    <label for="message">Message</label><br/>
+    <textarea rows="5" name="message" id="message" required></textarea><br/><br/>
+
+    <button type="submit">Envoyer</button>
+    <p id="result"></p>
+    </form>
+</div>
